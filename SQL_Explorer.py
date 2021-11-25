@@ -446,6 +446,7 @@ def ExecuteINSERT():
             
     return 1
 
+
 def INSERT():
     
     cnxn   = CurrDI['con']
@@ -663,7 +664,6 @@ def Prepare__receipt_heders():
         Accs[1].append(query)
 
 
- 
 def Prepare__goods():
 
     Accs[1] = []
